@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/co/uk/zoopla/features"},
         plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
-        glue = {"co/uk/zoopla/stepDefinitions"}
+        glue = {"co/uk/zoopla/hooks","co/uk/zoopla/stepDefinitions"}
 )
 
 public class TestRunner {

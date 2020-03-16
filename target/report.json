@@ -11,7 +11,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -24,11 +23,33 @@
         ]
       },
       {
-        "start_timestamp": "2020-03-16T04:44:05.011Z",
+        "start_timestamp": "2020-03-16T05:19:22.047Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11594000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
         "line": 22,
         "name": "Customer can search for any property",
         "description": "",
         "id": "search-for-sale-properties;customer-can-search-for-any-property;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1044000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -68,6 +89,7 @@
           },
           {
             "result": {
+              "duration": 4000000,
               "status": "passed"
             },
             "line": 12,
