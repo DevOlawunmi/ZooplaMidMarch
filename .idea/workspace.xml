@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41df25fc-cad6-4bc4-866b-f8f4a15cac6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/Homepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/ProductDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/SearchForSaleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/SearchForSaleSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
@@ -14,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_2622462629.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_2622462629.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinitions/SearchForSaleSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinitions/SearchForSaleSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,39 +108,47 @@
       <option name="project" value="LOCAL" />
       <updated>1584336087724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="URL Successfully Launched">
+      <created>1584413453939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584413453939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Framework and Step Definitions Commit" />
     <MESSAGE value="Browser Successfully Launched" />
-    <option name="LAST_COMMIT_MESSAGE" value="Browser Successfully Launched" />
+    <MESSAGE value="URL Successfully Launched" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL Successfully Launched" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584336086876">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584413453161">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584336086876" />
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom" timestamp="1584413401299">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584413453161" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1584418448636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584413401299" />
-    <state width="1493" height="131" key="GridCell.Tab.0.center" timestamp="1584413401298">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584418448636" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1584418448636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584413401298" />
-    <state width="1493" height="131" key="GridCell.Tab.0.left" timestamp="1584413401297">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584418448636" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1584418448636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584413401297" />
-    <state width="1493" height="131" key="GridCell.Tab.0.right" timestamp="1584413401299">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584418448636" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1584418448636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="131" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584413401299" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584336090170">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584418448636" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584413460360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584336090170" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584413460360" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1584409042120">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
