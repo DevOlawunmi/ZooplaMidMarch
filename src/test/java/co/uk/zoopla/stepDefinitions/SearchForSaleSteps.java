@@ -1,14 +1,22 @@
 package co.uk.zoopla.stepDefinitions;
 
+import co.uk.zoopla.pages.BasePage;
+import co.uk.zoopla.pages.Homepage;
+import co.uk.zoopla.pages.SearchResultPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
-public class SearchForSaleSteps {
+public class SearchForSaleSteps extends BasePage
+{
+    Homepage homepage = PageFactory.initElements(driver, Homepage.class);
+    SearchResultPage searchResultPage = PageFactory.initElements(driver, SearchResultPage.class);
 
     @Given("I navigate to zoopla homepage")
-public void i_navigate_to_zoopla_homepage() {
-
+public void i_navigate_to_zoopla_homepage()
+    {
+launchURL();
 }
 
     @When("I enter a {string} in the search text box")
