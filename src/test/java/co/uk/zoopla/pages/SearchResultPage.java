@@ -16,9 +16,9 @@ public class SearchResultPage extends BasePage
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
-    @FindBy (css = "#content h1")
+    @FindBy (tagName = "h1")
     private WebElement pageTitle;
-    @FindBy (css = "listing-results-price.text-price")
+    @FindBy (css = ".listing-results-price.text-price")
     public List<WebElement>results;
 
     public void isSearchResultDisplayed()
@@ -42,7 +42,7 @@ Assert.assertTrue(title.contains(location));
 public ProductDetailsPage clickOnARandomResult()
 {
     Random random = new Random();
-    int randomNumber = random.nextInt(results.size()-1);
+    int randomNumber = random.nextInt(results.size() - 1);
     results.get(randomNumber).click();
         return new ProductDetailsPage(driver);
 }

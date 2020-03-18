@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1754000000,
+              "duration": 1259000000,
               "status": "passed"
             },
             "line": 7,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-03-17T04:14:09.822Z",
+        "start_timestamp": "2020-03-18T01:43:29.305Z",
         "before": [
           {
             "result": {
-              "duration": 10285000000,
+              "duration": 10302000000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 872000000,
+              "duration": 945000000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 562000000,
+              "duration": 493000000,
               "status": "passed"
             },
             "line": 10,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 185000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 11,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 221000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "line": 12,
@@ -110,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 268000000,
+              "duration": 247000000,
               "status": "passed"
             },
             "line": 13,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 260000000,
+              "duration": 177000000,
               "status": "passed"
             },
             "line": 14,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 840000000,
+              "duration": 756000000,
               "status": "passed"
             },
             "line": 15,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 1175000000,
+              "duration": 1078000000,
               "status": "passed"
             },
             "line": 16,
@@ -180,9 +180,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.IllegalArgumentException: bound must be positive\r\n\tat java.util.Random.nextInt(Random.java:388)\r\n\tat co.uk.zoopla.pages.SearchResultPage.clickOnARandomResult(SearchResultPage.java:45)\r\n\tat co.uk.zoopla.stepDefinitions.SearchForSaleSteps.i_click_on_one_of_the_results_links(SearchForSaleSteps.java:70)\r\n\tat ✽.I click on one of the results links(file:///C:/workspace/ZooplaMidMarch/src/test/java/co/uk/zoopla/features/CustomerCanSearchPropertyForSale.feature:17)\r\n",
-              "duration": 10026000000,
-              "status": "failed"
+              "duration": 578000000,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click on one of the results links",
